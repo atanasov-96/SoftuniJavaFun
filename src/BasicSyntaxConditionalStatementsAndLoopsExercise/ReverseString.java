@@ -1,4 +1,4 @@
-package BasicSyntax;
+package BasicSyntaxConditionalStatementsAndLoopsExercise;
 
 import java.util.Scanner;
 
