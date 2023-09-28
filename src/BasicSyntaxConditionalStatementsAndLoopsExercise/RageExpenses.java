@@ -18,6 +18,5 @@ public class RageExpenses {
         int displaysBroken = keyboardBroken / 2;
         double totalPrice = headsetPrice * headsetsBroken + mousePrice * miceBroken + keyboardPrice * keyboardBroken + displayPrice * displaysBroken;
         System.out.printf("Rage expenses: %.2f lv.", totalPrice);
-
     }
 }

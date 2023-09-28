@@ -22,6 +22,5 @@ public class PadawanEquiptment {
         } else {
             System.out.printf("George Lucas will need %.2flv more.%n", totalPrice - money);
         }
-
     }
 }

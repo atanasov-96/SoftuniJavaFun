@@ -1,4 +1,4 @@
-package BasicSyntaxConditionalStatementsAndLoopsExercise;
+package BasicSyntaxConditionalStatementsAndLoopsMoreExercises;
 
 import java.util.Scanner;
 
@@ -81,7 +81,6 @@ public class GamingStore {
         }
         if (balance > 0) {
             System.out.printf("Total spent: $%.2f. Remaining: $%.2f.%n", spent, money - spent);
-
         }
     }
 }

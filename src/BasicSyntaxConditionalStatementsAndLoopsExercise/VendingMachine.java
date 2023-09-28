@@ -80,5 +80,4 @@ public class VendingMachine {
         System.out.printf("Change: %.2f%n",money);
     }
 
-
 }
