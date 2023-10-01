@@ -1,12 +1,12 @@
 package ArraysLab;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class SumEvenNumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String str = scanner.nextLine();
-        String[] numbersAsString = str.split("\\s+");
+        String[] numbersAsString = scanner.nextLine().split("\\s+");
         int[] numbers = new int[numbersAsString.length];
         int sum = 0;
         for (int i = 0; i < numbersAsString.length; i++) {

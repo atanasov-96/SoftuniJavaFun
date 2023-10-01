@@ -13,7 +13,7 @@ public class PrintNumbersInReverseOrder {
             numbers[n] = number;
         }
         for (int i = numbers.length - 1; i >= 0; i--) {
-            System.out.println(numbers[i] + "");
+            System.out.print(numbers[i] + " ");
         }
     }
 }
