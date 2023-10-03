@@ -8,6 +8,8 @@ public class ReverseChars {
         String a = scanner.nextLine();
         String b = scanner.nextLine();
         String c = scanner.nextLine();
-
+        System.out.print(c + " ");
+        System.out.print(b + " ");
+        System.out.print(a);
     }
 }
