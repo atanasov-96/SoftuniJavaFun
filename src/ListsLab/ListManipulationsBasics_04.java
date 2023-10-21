@@ -5,16 +5,16 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-public class ListManipulations {
+public class ListManipulationsBasics_04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         List<Integer> numbers = Arrays.stream(scanner.nextLine().split("\\s+"))
                 .map(Integer::parseInt)
                 .collect(Collectors.toList());
 
+        String[] string = scanner.nextLine().split("\\s+");
+        String command = string[0];
         while (true) {
-            String[] string = scanner.nextLine().split("\\s+");
-            String command = string[0];
 
             if (command.equals("end")) {
                 break;

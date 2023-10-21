@@ -2,7 +2,7 @@ package ListsLab;
 
 import java.util.*;
 
-public class ListOfProducts {
+public class ListOfProducts_06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

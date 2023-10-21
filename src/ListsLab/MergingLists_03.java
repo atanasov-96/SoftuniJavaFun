@@ -1,10 +1,9 @@
 package ListsLab;
 
-import javax.swing.*;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class MergingLists {
+public class MergingLists_03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

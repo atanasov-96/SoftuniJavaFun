@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class SumAdjacentEqualNumbers {
+public class SumAdjacentEqualNumbers_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
