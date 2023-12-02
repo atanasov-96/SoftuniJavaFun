@@ -1,4 +1,4 @@
-package Exam_Prep;
+package Mid_Exam_Prep;
 
 import java.util.Arrays;
 import java.util.List;
