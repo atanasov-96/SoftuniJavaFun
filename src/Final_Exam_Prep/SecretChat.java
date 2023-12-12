@@ -17,15 +17,15 @@ public class SecretChat {
             switch (command) {
                 case "InsertSpace":
                     int index = Integer.parseInt(input[1]);
-                    concealedMessage.insert(index," ");
+                    concealedMessage.insert(index, " ");
                     System.out.println(concealedMessage);
                     break;
                 case "Reverse":
                     StringBuilder substring = new StringBuilder(input[1]);
                     int startIndex = concealedMessage.indexOf(substring.toString());
-                    if (startIndex != -1){
+                    if (startIndex != -1) {
                         int endIndex = startIndex + substring.length();
-                        concealedMessage.delete(startIndex,endIndex);
+                        concealedMessage.delete(startIndex, endIndex);
                         substring.reverse();
                         concealedMessage.append(substring);
                         System.out.println(concealedMessage);
